@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+
+<h1>HISTOGRAM PAGE</h1>
+<h3>Name: {{name }}</h3>
+<h3>Words and Frequencies</h3>
+
+{% for key,values in frequency.items %}
+<body> <p>{{ key }} {{"----"}}  {{values}}</p>
+{% endfor %}
+</body>
+
+</html>

@@ -1,0 +1,3 @@
+If you left it running, the dev server automatically detects
+changes to your Python code and reloads as necessary, so you
+don't have to restart the server between changes
